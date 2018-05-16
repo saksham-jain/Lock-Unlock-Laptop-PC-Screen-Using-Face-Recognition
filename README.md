@@ -1,6 +1,6 @@
 # Lock-Unlock-PC-Using-Face-Recognition
 
-#### Kindly Notes that this program cannot be used as a serious authentication system for your laptop/PC. This has been designed only for general purposes. 
+#### Kindly Note that this program cannot be used as a serious authentication system for your laptop/PC. This has been designed only for general purposes. 
 I have been using this program and it works just fine for me.
 This program basically adds a fun feature in your laptop/PC. After setting all of the functions written below your laptop will have a similar feature as that provided by Windows Hello.
 But since Windows Hello is not compatible with most of the basic devices there is the need of program like this.
