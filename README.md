@@ -28,3 +28,7 @@ Program has been divided into three Script :
 Now in Action tab click new and select 'Start a Program' in drop down menu, Then browse the script_runner.bat file and select it.         
 Congrats!! Works has been done.
 5) Now you just have to check by locking your device.
+
+Comments has been added in scripts to understand codes.
+
+### Improvement idea will be appreciated.Thank you in advance.
