@@ -9,6 +9,3 @@ Your laptop will be able to recognize difference between you and any stranger(on
 * Webcam and requisite hardware to run Python 3.6.
 * Python Modules - OpenCV, Numpy, PIL(Python Image Library).
 * Windows Task Sheduler must be working.
-
-## Steps to setup :
-* 
