@@ -16,7 +16,7 @@ Program has been divided into three Script :
 3) lock_unlock_face_recognition.py - Script which will recognize face from webcam and check whether this face is stored in dataset folder or not.
 
 # How to run script?
-* To run python Script a 
+#### * To run Python Script a script_runner.bat file has already been created. You just have to edit this file and change addresses of python.exe(as it will be different in your laptop as compared to mine) and script which you want to run.
 # Steps to setup : 
 1) Download all the files and get the location where you have saved your files. First you need to open 
 2) 
