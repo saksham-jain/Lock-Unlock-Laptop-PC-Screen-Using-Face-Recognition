@@ -1,4 +1,4 @@
-# Lock-Unlock-PC-Using-Face-Recognition
+# Lock-Unlock-Laptop/PC-Screen-Using-Face-Recognition
 
 #### Kindly Note that this program cannot be used as a serious authentication system for your laptop/PC. This has been designed only for general purposes. 
 I have been using this program and it works just fine for me.
