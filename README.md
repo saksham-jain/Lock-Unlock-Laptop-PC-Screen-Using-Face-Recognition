@@ -9,7 +9,7 @@ Your laptop will be able to recognize difference between you and any stranger(on
 
 ## Requirements :
 * Webcam and requisite hardware to run Python 3.6.
-* Python Modules - OpenCV, Numpy, PIL(Python Image Library).
+* Python Modules - OpenCV, Numpy, PIL(Python Image Library),pyautogui(Used to operate mouse and keyboard using python script).
 * Windows Task Sheduler must be working.
 
 Program has been divided into three Script :
