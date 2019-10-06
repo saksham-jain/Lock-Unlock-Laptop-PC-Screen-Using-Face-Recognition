@@ -1,16 +1,17 @@
 # Lock-Unlock-Laptop/PC-Screen-Using-Face-Recognition
-## FACEID Like feature for windows.
-#### Kindly Note that this program cannot be used as a serious authentication system for your laptop/PC. This has been designed only for general purposes. 
+## Face ID-like feature for windows.
+#### Kindly note that this program cannot be used as a serious authentication system for your laptop/PC. This has been designed only for general purposes. 
+
 I have been using this program and it works just fine for me.
 This program basically adds a cool feature in your laptop/PC. After setting all of the functions written below your laptop will have a similar feature as that provided by Windows Hello.
 But since Windows Hello is not compatible with most of the basic devices there is the need of program like this.
 
-Your laptop will be able to recognize difference between you and any stranger(only to your laptop, maybe not for you) and lock unlock itself depending on who is in front of its webcam.
+Your laptop will be able to recognize difference between you and any stranger (only to your laptop, maybe not for you) and lock unlock itself depending on who is in front of its webcam.
 
 ## Requirements :
 * Webcam and requisite hardware to run Python 3.6.
-* Python Modules - OpenCV, Numpy, PIL(Python Image Library),pyautogui(Used to operate mouse and keyboard using python script).
-* Windows Task Sheduler must be working.
+* Python Modules - OpenCV, Numpy, PIL(Python Image Library),pyautogui (Used to operate mouse and keyboard using python script).
+* Windows Task Scheduler must be working.
 
 Program has been divided into three Script :
 1) create_face_datasets.py - Script that is meant to create dataset. This will capture 100 photos from webcam and will save them in a folder named dataset.(You dont need to create dataset folder, python script will create one on its own).
@@ -21,14 +22,17 @@ Program has been divided into three Script :
 ####  To run Python Script a script_runner.bat file has already been created. You just have to edit this file and change addresses of python.exe (as it will be different in your laptop as compared to mine) and script which you want to run.
 
 # Steps to setup : 
-1) Download all the files and get the location where you have saved your files. Firstly you need to run create_face_datasets.py using .bat file (as mentioned above).Make sure you have changed the address of xml file in script otherwise you will get an error. 
-2) Now run training_model.py. You can check trainer folder has been created and yml file is inside it.
-3) Now change name of script in .bat file to lock_unlock_face_recognition.py and run .bat file. This will run lock_unlock_face_recognition.py. 
-4) In order to make above py file to run automatically you will have to setup task scheduler. For this open Windows Task Schedule and create Task. A window will appear, in Triggers tab click New and select 'On workstation Unlock' in drop down menu.
+
+1) Download all the files and get the location where you have saved your files. 
+2) Install all the prerequisites using ```pip install -r requirements.txt```
+3) Run create_face_datasets.py using .bat file (as mentioned above). Make sure you have changed the address of xml file in script otherwise you will get an error. 
+4) Now run training_model.py. You can check trainer folder has been created and yml file is inside it.
+5) Now change name of script in .bat file to lock_unlock_face_recognition.py and run .bat file. This will run lock_unlock_face_recognition.py. 
+6) In order to make above py file to run automatically you will have to setup task scheduler. For this open Windows Task Schedule and create Task. A window will appear, in Triggers tab click New and select 'On workstation Unlock' in drop down menu.
 Now in Action tab click new and select 'Start a Program' in drop down menu, Then browse the script_runner.bat file and select it.         
 Congrats!! Works has been done.
-5) Now you just have to check by locking your device.
+7) Now you just have to check by locking your device.
 
 Comments has been added in scripts to understand codes.
 
-### Improvement idea will be appreciated.Thank you in advance.
+### Improvements will be appreciated. Thank you in advance.
